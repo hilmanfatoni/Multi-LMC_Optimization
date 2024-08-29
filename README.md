@@ -1,7 +1,7 @@
 # Multiple Leap Motion Controller and Placement Optimization
 
 Paper Title: **Optimizing Interaction Space: Enlarging the Capture Volume for Multiple Portable Motion Capture Devices**\
-Conference: **International Conference on Intelligent Robots and Systems 2024 (IROS 2024)** (Unpublished yet)\
+Conference: **International Conference on Intelligent Robots and Systems 2024 (IROS 2024)** (accepted)\
 Authors: **Muhammad Hilman Fatoni<sup>1,2,\*</sup> Christopher Herneth <sup>1,\*</sup>, Junnan Li<sup>1</sup>, Fajar Budiman<sup>1,2</sup>, Amartya Ganguly<sup>1</sup>, and Sami Haddadin<sup>1</sup>**
 
 1\. Munich Institute of Robotics and Machine Intelligence (MIRMI), Technische Universität München (TUM), Germany.\
