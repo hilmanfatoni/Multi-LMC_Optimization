@@ -1,0 +1,9 @@
+# CMake generated files
+/multi_lmc/build/
+#/.vscode/settings.json
+
+
+# Python related stuff
+/processing/__pycache__/
+/optimization/Python/__pycache__/
+
