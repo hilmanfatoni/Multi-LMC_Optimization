@@ -1,7 +1,7 @@
 {
   "cmake.sourceDirectory": "${workspaceFolder}/multi_lmc/src",
   "cmake.buildDirectory": "${workspaceFolder}/multi_lmc/build",
-  "cmake.configureOnOpen": true,
+  "cmake.configureOnOpen": false,
     "files.associations": {
         "algorithm": "cpp",
         "atomic": "cpp",

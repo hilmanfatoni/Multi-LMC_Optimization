@@ -11,7 +11,7 @@ Authors: **Muhammad Hilman Fatoni<sup>1,2,\*</sup> Christopher Herneth <sup>1,\*
 Correspondence: muhammadhilman.fatoni@tum.de
 
 ## Description
-This application is designed for the acquisition of data from multiple Leap Motion Controller (LMC), optimization of LMC placements, and performance analysis by evaluating hand properties and LMC visibility against the Marker-based Motion Capture (MMC).\
+This application is designed for the acquisition of data from multiple Leap Motion Controller (LMC), optimization of LMC placements, and performance analysis by evaluating hand anthropometrics and LMC visibility against the Marker-based Motion Capture (MMC).\
 The code is developed using C++ and Python language in VSCode IDE, and specially tailored for a Windows environment.
 
 ## Repository Overview
@@ -23,7 +23,7 @@ Contain code written in C++ to acquire data from multiple LMCs and to interpolat
 3. [**Folder optimization**](optimization)\
 Contain script written in Python to optimize the placement configuration of multiple LMCs and to run ray-tracing algorithm for LMC Visibility calculation.
 4. [**Folder processing**](processing)\
-Contain script written in Python to analyze the performance of LMCs configuration placement by measuring hand properties and visibility rate of LMC.
+Contain script written in Python to analyze the performance of LMCs configuration placement by measuring hand anthropometrics and visibility rate of LMC.
 5. **File requirements.txt**\
 Contain requirement libraries used for Python development in this project. The Python script is developed using **Python 3.8**. Please use this file to generate the virtual environment.
 
@@ -37,7 +37,7 @@ Run the second code inside **Folder multi_lmc ([MultiLMC_Interpolate.cpp](multi_
 4. **LMCs Visibility Calculation**\
 Using the interpolated LMC data, run a script from **Folder optimization ([LMC_Trial_rayTracing.ipynb](optimization/LMC_Trial_rayTracing.ipynb))**. It will generate LMC data with visibility value for each frame.
 5. **Analyzing**\
-This folder is used to analyze the performance of placement configuration by calculating hand properties. Utilizing input from LMCs data (from step 4) and MMC data, the script inside **Folder processing ([Extract.ipynb](processing/Extract.ipynb))** will calculate the finger lengths, range of motion of fingers, and visibility rate of LMCs.
+This folder is used to analyze the performance of placement configuration by calculating hand anthropometrics. Utilizing input from LMCs data (from step 4) and MMC data, the script inside **Folder processing ([Extract.ipynb](processing/Extract.ipynb))** will calculate the finger lengths, range of motion of fingers, and visibility rate of LMCs.
 
 ## Requirements
 **Hardware**. This project used a Laptop and peripherals with these specifications:
@@ -64,6 +64,9 @@ This work is unpublished yet. Please refer to IEEE repository when published for
 Paper Title: **Optimizing Interaction Space: Enlarging the Capture Volume for Multiple Portable Motion Capture Devices** 
 
 ## License
-This project is licensed under multiple licenses. The full license texts can be found in the [`LICENSE`](LICENSE.md) file.\
-The following licenses apply to the components used in this project: [UltraLeap SDK](multi_lmc/ext_lib/Ultraleap/LeapSDK/LICENSE.md), [freeglut](multi_lmc/ext_lib/freeglut/LICENSE.md), and [ALGLIB](multi_lmc/ext_lib/Alglib/LICENSE.md).\
-Each of these components is subject to different licensing terms. Please refer to the specific [`LICENSE`](LICENSE.md) files located within their respective directories for detailed information.
+ Multiple Leap Motion Controller and Placement Optimization © 2024 is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The full license texts can be found in the [`LICENSE`](LICENSE.md) file.
+
+ [![LICENSE](https://img.shields.io/badge/LICENSE-CC%20BY--NC--SA%204.0-0000FF?labelColor=FF0000)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+ [![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
